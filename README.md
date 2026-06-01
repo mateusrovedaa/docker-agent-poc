@@ -201,6 +201,7 @@ Usuário (cola texto ou informa path de arquivo)
 ### Rodar
 
 ```bash
+cp .env.example .env
 ./run.sh
 
 # Opção 1: cole o texto do artigo diretamente no chat
