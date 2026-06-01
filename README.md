@@ -201,7 +201,6 @@ Usuário (cola texto ou informa path de arquivo)
 ### Rodar
 
 ```bash
-cd article-pipeline
 ./run.sh
 
 # Opção 1: cole o texto do artigo diretamente no chat
@@ -213,7 +212,7 @@ cd article-pipeline
 
 ```bash
 # Publicar
-docker agent share push ./article-pipeline/pipeline.yaml seunome/article-pipeline
+docker agent share push ./pipeline.yaml seunome/article-pipeline
 
 # Qualquer pessoa pode rodar com:
 docker agent run seunome/article-pipeline
